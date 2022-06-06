@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <!-- <div class="container">
+        <div class="row mt-3 mb-3">
+            <div class="col-2">
+                <select data-element="sort-by" class="form-select">
+                    <option value="1">O'sish tartibida</option>
+                    <option value="-1">Kamayish tartibida</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <select data-element="sort-type" class="form-select">
+                    <option value="1">id bo'yicha</option>
+                    <option value="2">nomi bo'yicha</option>
+                    <option value="3">yili bo'yicha</option>
+                </select>
+            </div>
+        </div>
+
+        <div data-element="movie-container" class="row">
+        </div>
+    </div>
+
+    <template id="movie-item">
+        <div class="col-4">
+            <div class="card">
+                    <div class="card-img w-100 d-flex flex-column align-items-center">
+                        <img data-movie="img"  class="w-100" src="" alt="">
+                   </div>
+                   <div class="card-body">
+                       <h5 class="card-title" data-movie="title"> </h5>
+                        <p class="card-text" data-movie="description"></p>
+                        <div data-movie="year"></div>
+                     </div>
+            </div>
+        </div>
+    </template> -->
+
+
+    <!-- <script src="./js/movies.js"></script> -->
+
+
+
+<!-- Todo List app -->
+
+<div class="container">
+    <form class="row mt-2 mb-2">
+        <div class="col">
+            <input class="form-control" type="text">
+        </div>
+        <div class="col-1">
+            <button class="btn w-100 btn-success" type="submit">Add</button>
+        </div>
+    </form>
+
+    <div class="row todo-list">
+        
+    </div>
+
+    <div class="row mt-3">
+        <div class="col">
+            <ul class="pagination todo-pagination">
+                <!-- Pagination links here -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <template id="pagination-item">
+        <li class="page-item">
+            <a href="#" class="page-link">3</a>
+        </li>
+    </template>
+
+    <template id="todo-item">
+        <div class="col-12">
+            <div class="todo p-3 border d-flex align-items-center justify-content-between">
+                <input class="form-check-input todo-is-completed" type="checkbox">
+                <label class="todo-title me-auto ms-3 h4 form-check-label d-flex align-items-center" >
+                    Lorem
+                </label>
+                <button class="btn btn-danger todo-delete-btn">Delete</button>
+            </div>
+        </div>
+    </template>
+    <script src="./js/main.js"></script>
+</body>
+</html>
